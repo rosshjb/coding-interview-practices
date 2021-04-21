@@ -9,7 +9,7 @@
 n, m, k = map(int, input().split())
 array = list(map(int, input().split()))
 
-decreasing_array = sorted(array, reverse=True)  # [6, 5, 4, 4, 2]
+decreasing_array = sorted(array, reverse=True)
 addend = 0
 adder = decreasing_array[0]
 count = k
