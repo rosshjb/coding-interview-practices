@@ -33,7 +33,6 @@ def determine_direction_list(direction_list):
 
 determine_direction_list(direction_list)
 while True:
-    # determine direction list
     determine_direction_list(direction_list)
 
     go_anywhere = False
